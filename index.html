@@ -6,22 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
 
 </head>
-<body>
+<body style="background-image: url(assets/images/large.jpg); background-size: cover;">
     <div class="container-fluid">
         <div class="row">
             <h1 style= "margin: 20px; 
                         color: white;  
                         background-color: teal; 
-                        padding: 30px;">
+                        padding: 30px; 
+                        font-family: 'Indie Flower';">
                      Crystals Collector!
             </h1>
         </div>
-        <div class="row" style="margin: 20px; 
-                                width: 40%;
+        <div class="row" style="margin: 5px; 
+                                width: 71%;
                                 color: teal;
-                                background-color: #ffffff;">
+                                padding: 5px;
+                                background-color: #ffffff;
+                                font-family: 'Indie Flower'">
             <p>You will be given a random number at the start of the game.</p>
             <br>
             <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
@@ -32,16 +37,34 @@
             <br>
             <p>Each time when the game starts, the game will change the value of each crystal.</p>
             <br>
-            <br>
-            <br>
         </div>
         <div class="row">
-            <div class="col-6" style="margin: 20px; padding: 50px; background-color: green;">
-                <p>Your Number: <span id="yourNumber"></span></p>
-                
-                <p>Your Score: <span id="yourScore"></span></p>
+            <div class="col-3" style="margin: 20px; 
+                                    background-color: #e478aa; 
+                                    font-size: 45px; 
+                                    color: white;
+                                    font-family: 'Indie Flower';
+                                    text-align: center;">
+                <p>Your Number: <span id="yourNumber"></span></p>  
+               
             </div>
-            <div class="col-4" style="margin: 20px; background-color: yellow;">Wins and Losses Here            
+            <div class="col-3" style="margin: 20px;
+                                     background-color:#cc2bb2;
+                                     font-size: 50px;
+                                     font-family: 'Indie Flower';
+                                     text-align: center;
+                                     color: white;">
+                <p>Your Score: <span id="yourScore"></span></p>
+
+
+            </div>
+            <div class="col-3" style="margin: 20px; 
+                                    background-color: #59158e;
+                                    font-size: 50px;
+                                    font-family: 'Indie Flower';
+                                    color: white;">
+                <p>Wins: <span id="winshere"></span></p>
+                <p>Losses: <span id="losseshere"></span></p>           
             </div>
         </div>
         <div class="row">
@@ -58,14 +81,6 @@
                 <img src="assets\images\mar.jfif" alt="Gem 4" style="height: 150px; width: 150px";>
             </button>
         </div>
-        <div class="row" style="margin: 20px; background-color: red;">
-            YOUR TOTAL SCORE IS
-        </div>
-        <div class="row" style="margin: 20px; padding: 50px; background-color: red;">
-            <p>Wins: <span id="winshere"></span></p>
-        </div>
-
-
     </div>
 
 
